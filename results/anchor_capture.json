@@ -1,0 +1,791 @@
+{
+  "rpc_url": "http://127.0.0.1:8731/",
+  "n_tasks": 12,
+  "update_delay_s": 0.05,
+  "records": [
+    {
+      "kind": "http_request",
+      "t": 221268.954213541,
+      "direction": "c2s",
+      "method": "GET",
+      "path": "/.well-known/agent-card.json",
+      "bytes": 0
+    },
+    {
+      "kind": "http_response",
+      "t": 221268.957414375,
+      "direction": "s2c",
+      "path": "/.well-known/agent-card.json",
+      "status": 200,
+      "bytes": 457
+    },
+    {
+      "kind": "http_request",
+      "t": 221268.957936333,
+      "direction": "c2s",
+      "method": "POST",
+      "path": "/",
+      "bytes": 285
+    },
+    {
+      "kind": "http_response",
+      "t": 221268.960562791,
+      "direction": "s2c",
+      "path": "/",
+      "status": 200,
+      "bytes": null
+    },
+    {
+      "kind": "stream_event",
+      "t": 221268.961009458,
+      "direction": "s2c",
+      "task_no": 0,
+      "bytes": 228,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221268.962537625,
+      "direction": "s2c",
+      "task_no": 0,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221268.962706583,
+      "direction": "s2c",
+      "task_no": 0,
+      "bytes": 442,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.010606416,
+      "direction": "s2c",
+      "task_no": 0,
+      "bytes": 532,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.062034958,
+      "direction": "s2c",
+      "task_no": 0,
+      "bytes": 742,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.062362375,
+      "direction": "s2c",
+      "task_no": 0,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "http_request",
+      "t": 221269.063251083,
+      "direction": "c2s",
+      "method": "POST",
+      "path": "/",
+      "bytes": 285
+    },
+    {
+      "kind": "http_response",
+      "t": 221269.064785416,
+      "direction": "s2c",
+      "path": "/",
+      "status": 200,
+      "bytes": null
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.065033708,
+      "direction": "s2c",
+      "task_no": 1,
+      "bytes": 228,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.065341958,
+      "direction": "s2c",
+      "task_no": 1,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.065618708,
+      "direction": "s2c",
+      "task_no": 1,
+      "bytes": 442,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.116011375,
+      "direction": "s2c",
+      "task_no": 1,
+      "bytes": 532,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.167003666,
+      "direction": "s2c",
+      "task_no": 1,
+      "bytes": 742,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.16736675,
+      "direction": "s2c",
+      "task_no": 1,
+      "bytes": 95,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "http_request",
+      "t": 221269.168397041,
+      "direction": "c2s",
+      "method": "POST",
+      "path": "/",
+      "bytes": 285
+    },
+    {
+      "kind": "http_response",
+      "t": 221269.170507583,
+      "direction": "s2c",
+      "path": "/",
+      "status": 200,
+      "bytes": null
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.17082025,
+      "direction": "s2c",
+      "task_no": 2,
+      "bytes": 228,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.170958166,
+      "direction": "s2c",
+      "task_no": 2,
+      "bytes": 95,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.171094458,
+      "direction": "s2c",
+      "task_no": 2,
+      "bytes": 441,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.221633583,
+      "direction": "s2c",
+      "task_no": 2,
+      "bytes": 531,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.272445875,
+      "direction": "s2c",
+      "task_no": 2,
+      "bytes": 742,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.272682875,
+      "direction": "s2c",
+      "task_no": 2,
+      "bytes": 95,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "http_request",
+      "t": 221269.273593541,
+      "direction": "c2s",
+      "method": "POST",
+      "path": "/",
+      "bytes": 285
+    },
+    {
+      "kind": "http_response",
+      "t": 221269.275212583,
+      "direction": "s2c",
+      "path": "/",
+      "status": 200,
+      "bytes": null
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.275624625,
+      "direction": "s2c",
+      "task_no": 3,
+      "bytes": 228,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.275894625,
+      "direction": "s2c",
+      "task_no": 3,
+      "bytes": 95,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.276307166,
+      "direction": "s2c",
+      "task_no": 3,
+      "bytes": 441,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.326511,
+      "direction": "s2c",
+      "task_no": 3,
+      "bytes": 531,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.377068,
+      "direction": "s2c",
+      "task_no": 3,
+      "bytes": 742,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.377515666,
+      "direction": "s2c",
+      "task_no": 3,
+      "bytes": 95,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "http_request",
+      "t": 221269.378587333,
+      "direction": "c2s",
+      "method": "POST",
+      "path": "/",
+      "bytes": 285
+    },
+    {
+      "kind": "http_response",
+      "t": 221269.380364083,
+      "direction": "s2c",
+      "path": "/",
+      "status": 200,
+      "bytes": null
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.380717083,
+      "direction": "s2c",
+      "task_no": 4,
+      "bytes": 228,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.380886666,
+      "direction": "s2c",
+      "task_no": 4,
+      "bytes": 95,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.381228875,
+      "direction": "s2c",
+      "task_no": 4,
+      "bytes": 441,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.43146025,
+      "direction": "s2c",
+      "task_no": 4,
+      "bytes": 532,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.482721166,
+      "direction": "s2c",
+      "task_no": 4,
+      "bytes": 742,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.483094958,
+      "direction": "s2c",
+      "task_no": 4,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "http_request",
+      "t": 221269.484125916,
+      "direction": "c2s",
+      "method": "POST",
+      "path": "/",
+      "bytes": 285
+    },
+    {
+      "kind": "http_response",
+      "t": 221269.486069625,
+      "direction": "s2c",
+      "path": "/",
+      "status": 200,
+      "bytes": null
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.486399833,
+      "direction": "s2c",
+      "task_no": 5,
+      "bytes": 228,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.4866725,
+      "direction": "s2c",
+      "task_no": 5,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.486902416,
+      "direction": "s2c",
+      "task_no": 5,
+      "bytes": 442,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.537439083,
+      "direction": "s2c",
+      "task_no": 5,
+      "bytes": 532,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.588387541,
+      "direction": "s2c",
+      "task_no": 5,
+      "bytes": 742,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.588833333,
+      "direction": "s2c",
+      "task_no": 5,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "http_request",
+      "t": 221269.589802125,
+      "direction": "c2s",
+      "method": "POST",
+      "path": "/",
+      "bytes": 285
+    },
+    {
+      "kind": "http_response",
+      "t": 221269.591527791,
+      "direction": "s2c",
+      "path": "/",
+      "status": 200,
+      "bytes": null
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.591890333,
+      "direction": "s2c",
+      "task_no": 6,
+      "bytes": 228,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.592119208,
+      "direction": "s2c",
+      "task_no": 6,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.592346791,
+      "direction": "s2c",
+      "task_no": 6,
+      "bytes": 442,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.642995208,
+      "direction": "s2c",
+      "task_no": 6,
+      "bytes": 532,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.694219041,
+      "direction": "s2c",
+      "task_no": 6,
+      "bytes": 742,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.695031291,
+      "direction": "s2c",
+      "task_no": 6,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "http_request",
+      "t": 221269.69611525,
+      "direction": "c2s",
+      "method": "POST",
+      "path": "/",
+      "bytes": 285
+    },
+    {
+      "kind": "http_response",
+      "t": 221269.698065666,
+      "direction": "s2c",
+      "path": "/",
+      "status": 200,
+      "bytes": null
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.698333208,
+      "direction": "s2c",
+      "task_no": 7,
+      "bytes": 228,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.698650083,
+      "direction": "s2c",
+      "task_no": 7,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.698848041,
+      "direction": "s2c",
+      "task_no": 7,
+      "bytes": 442,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.748983666,
+      "direction": "s2c",
+      "task_no": 7,
+      "bytes": 532,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.800645958,
+      "direction": "s2c",
+      "task_no": 7,
+      "bytes": 742,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.801280583,
+      "direction": "s2c",
+      "task_no": 7,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "http_request",
+      "t": 221269.802237416,
+      "direction": "c2s",
+      "method": "POST",
+      "path": "/",
+      "bytes": 285
+    },
+    {
+      "kind": "http_response",
+      "t": 221269.804247958,
+      "direction": "s2c",
+      "path": "/",
+      "status": 200,
+      "bytes": null
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.804835791,
+      "direction": "s2c",
+      "task_no": 8,
+      "bytes": 228,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.805014333,
+      "direction": "s2c",
+      "task_no": 8,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.805298125,
+      "direction": "s2c",
+      "task_no": 8,
+      "bytes": 442,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.854883166,
+      "direction": "s2c",
+      "task_no": 8,
+      "bytes": 532,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.907059916,
+      "direction": "s2c",
+      "task_no": 8,
+      "bytes": 742,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.907721333,
+      "direction": "s2c",
+      "task_no": 8,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "http_request",
+      "t": 221269.909301083,
+      "direction": "c2s",
+      "method": "POST",
+      "path": "/",
+      "bytes": 285
+    },
+    {
+      "kind": "http_response",
+      "t": 221269.912058458,
+      "direction": "s2c",
+      "path": "/",
+      "status": 200,
+      "bytes": null
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.9124325,
+      "direction": "s2c",
+      "task_no": 9,
+      "bytes": 228,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.91268525,
+      "direction": "s2c",
+      "task_no": 9,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.913165625,
+      "direction": "s2c",
+      "task_no": 9,
+      "bytes": 442,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221269.962169041,
+      "direction": "s2c",
+      "task_no": 9,
+      "bytes": 532,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221270.013896458,
+      "direction": "s2c",
+      "task_no": 9,
+      "bytes": 742,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221270.014263333,
+      "direction": "s2c",
+      "task_no": 9,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "http_request",
+      "t": 221270.015416083,
+      "direction": "c2s",
+      "method": "POST",
+      "path": "/",
+      "bytes": 286
+    },
+    {
+      "kind": "http_response",
+      "t": 221270.018210458,
+      "direction": "s2c",
+      "path": "/",
+      "status": 200,
+      "bytes": null
+    },
+    {
+      "kind": "stream_event",
+      "t": 221270.018746708,
+      "direction": "s2c",
+      "task_no": 10,
+      "bytes": 229,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221270.01907575,
+      "direction": "s2c",
+      "task_no": 10,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221270.019487458,
+      "direction": "s2c",
+      "task_no": 10,
+      "bytes": 442,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221270.068888333,
+      "direction": "s2c",
+      "task_no": 10,
+      "bytes": 532,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221270.120195625,
+      "direction": "s2c",
+      "task_no": 10,
+      "bytes": 742,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221270.120602291,
+      "direction": "s2c",
+      "task_no": 10,
+      "bytes": 96,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "http_request",
+      "t": 221270.121548625,
+      "direction": "c2s",
+      "method": "POST",
+      "path": "/",
+      "bytes": 286
+    },
+    {
+      "kind": "http_response",
+      "t": 221270.123098916,
+      "direction": "s2c",
+      "path": "/",
+      "status": 200,
+      "bytes": null
+    },
+    {
+      "kind": "stream_event",
+      "t": 221270.123411375,
+      "direction": "s2c",
+      "task_no": 11,
+      "bytes": 229,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221270.123606958,
+      "direction": "s2c",
+      "task_no": 11,
+      "bytes": 94,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221270.123909791,
+      "direction": "s2c",
+      "task_no": 11,
+      "bytes": 440,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221270.174343666,
+      "direction": "s2c",
+      "task_no": 11,
+      "bytes": 531,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221270.226240041,
+      "direction": "s2c",
+      "task_no": 11,
+      "bytes": 742,
+      "event_type": "StreamResponse"
+    },
+    {
+      "kind": "stream_event",
+      "t": 221270.227203333,
+      "direction": "s2c",
+      "task_no": 11,
+      "bytes": 95,
+      "event_type": "StreamResponse"
+    }
+  ]
+}

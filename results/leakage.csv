@@ -1,0 +1,4 @@
+view,protection,classifier,accuracy,acc_ci_lo,acc_ci_hi,macro_f1,fold_mean,fold_std,chance_uniform,chance_majority,lift_over_chance
+registry,none,rf,1.0,1.0,1.0,1.0,1.0,0.0,0.125,0.125,8.0
+network,none,rf,0.9903125,0.98625,0.99375,0.9902926619782024,0.9903124999999999,0.002296396633859235,0.125,0.125,7.9225
+combined,none,rf,1.0,1.0,1.0,1.0,1.0,0.0,0.125,0.125,8.0

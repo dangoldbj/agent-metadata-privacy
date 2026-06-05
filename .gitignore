@@ -1,0 +1,33 @@
+# Personal / strategic notes — never commit
+NOTES.private.md
+*.private.md
+.context/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+
+# Environment / secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.idea/
+*.swp
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+*.tar.gz

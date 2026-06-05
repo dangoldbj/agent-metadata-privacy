@@ -1,0 +1,41 @@
+[project]
+name = "agentgraph"
+version = "0.1.0"
+description = "Empirical graph-inference experiment for 'From Privacy to Workflow Integrity': how much pending-workflow intent leaks from agent communication-graph metadata."
+readme = "README.md"
+authors = [
+    { name = "Bijaya Dangol", email = "dangoldbj23@gmail.com" }
+]
+license = "MIT"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "networkx>=3.6.1",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+    "scikit-learn>=1.9.0",
+    "scipy>=1.17.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.18,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+anchor = [
+    "a2a-sdk>=1.1.0",
+    "httpx>=0.28.1",
+    "sse-starlette>=3.4.4",
+    "starlette>=1.2.1",
+    "uvicorn>=0.48.0",
+]
+dev = [
+    "pytest>=9.0.3",
+    "ruff>=0.15.15",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
